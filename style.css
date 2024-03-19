@@ -3,24 +3,21 @@ body {
     margin: 0;
   }
 
-b{
-    text-decoration: none;
-    color: #e5e7eb;
-    font-size: 18px;
-  }
 
   ul {
     list-style-type: none;
     justify-content:space-between;
     display: flex;
     gap: 48px;
+    
   }
   
 .header {
     display: flex;
     align-items: center;
     background-color: #1f2937;
-    
+    justify-content: space-between;
+    flex-direction: column;
   }
 
 .mini_header {
@@ -30,20 +27,43 @@ b{
 .logo_header {
     color: #f9faf8;
     font-size: 24px;
+    width: 50%;
   }
 
   .sign_up {
-    display: flex;
     background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%
+      }
+
+  .sign_up_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
   }
 
   .awesome {
     color: #f9faf8;
     font-size: 48px;
+    
   }
 .awesome_1 {
     color: #e5e7eb;
     font-size: 18px;
+    flex:1 1 auto;
+    
+  }
+
+  .sign_up_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
   }
 
 a{
@@ -60,17 +80,25 @@ a{
 
   .quote_container {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content:center;
   }
 
   .quote {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    margin-top: 100px;
+    margin-left: 100px;
+  margin-right: 100px;
   }
 
   .author {
     color: #1f2937;
     font-weight: bold;
+    margin-bottom: 100px;
   }
 
   .CTA_container {
@@ -79,4 +107,49 @@ a{
 
   .footer {
     background-color: #1f2937;
+  }
+
+  img {
+    height: 200px;
+    width: auto;
+  }
+  button {
+    border-color: #f9faf8;
+    border-radius: 8px;
+    background: #3882f6;
+    font-size: 16px;
+    color: #f9faf8;
+    width: 100px;
+    height: 40px;
+  }
+
+  .first_button {
+    border: none;
+    background: #3882f6;
+    font-size: 16px;
+    color: #f9faf8;
+    width: 100px;
+    height: 40px;
+  }
+
+  .images_title {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  margin: 32px;
+  }
+
+  .content_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     }
+
+  .first_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px;
   }
