@@ -103,10 +103,27 @@ a{
 
   .CTA_container {
     background-color: #3882f6;
+    margin:36px;
+    padding: 24px;
+    text-align: center;
+  }
+
+  .CTA_title{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .CTA_text{
+    color: #f9faf8;
+    font-size: 18px;
   }
 
   .footer {
     background-color: #1f2937;
+    color:#e5e7eb;
+    text-align: center;
+    padding: 36px;
   }
 
   img {
@@ -121,6 +138,8 @@ a{
     color: #f9faf8;
     width: 100px;
     height: 40px;
+    font-family: 'Roboto', Courier, monospace;;
+    font-weight: bold;
   }
 
   .first_button {
