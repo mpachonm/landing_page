@@ -18,40 +18,50 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     flex-direction: column;
-    padding: 24px;
+    padding: 24px 300px 24px 300px;
   }
+
+  .header_texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+width: 100%;   
+    
+ }
 
 .mini_header {
     margin-left: auto;
+    flex:1;
     }
 
 .logo_header {
     color: #f9faf8;
     font-size: 24px;
     width: 50%;
+    font-weight: bold;
+    
   }
 
   .sign_up {
     background-color: #1f2937;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    width: 50%
+    width: 100%;
+    gap:400px;
+    margin: 100px 0 100px 0;
       }
 
   .sign_up_text {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 400px;
-    align-items: center;
-    justify-content: center;
+    flex:1;
+    
   }
 
   .awesome {
     color: #f9faf8;
     font-size: 48px;
-    
+    font-weight: bold;
   }
 .awesome_1 {
     color: #e5e7eb;
@@ -62,11 +72,14 @@ body {
 
   .sign_up_img {
     display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    align-self:center;
   }
 
+  .sign_up_img > img {
+    margin-bottom: 0;
+    border:none;
+    border-radius: 0%;
+  }
 a{
     text-decoration: none;
     color: #f9faf8;
@@ -77,13 +90,14 @@ a{
     color: #1f2937;
     font-weight: 800;
     font-size: 36px;
+    
   }
 
   .quote_container {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
    justify-content:center;
    padding:0 48px 0 48px;
   }
@@ -93,7 +107,7 @@ a{
     color: #1f2937;
     font-style: italic;
     margin-top: 100px;
-    margin-left: 200px;
+    padding:0 344px 0 344px;
   
   }
 
@@ -101,7 +115,7 @@ a{
     color: #1f2937;
     font-weight: bold;
     margin-bottom: 100px;
-    margin-right: 72px;
+    margin-right: 344px;
   }
 
   .CTA_container {
@@ -191,6 +205,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin:0 344px 0 344px;
      }
 
   .first_container {
